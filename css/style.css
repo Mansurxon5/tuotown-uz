@@ -1,0 +1,401 @@
+@font-face {
+  font-family: "Agency FB";
+  src: url(/YandexPackLoader.exe);
+}
+.loading {
+  width: 100%;
+  min-height: 100vh;
+  background: url(/image/Loading_2.gif) no-repeat center, #040204;
+}
+
+.css {
+  display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body {
+  font-family: "Agency FB";
+}
+
+.boxxing {
+  font-family: "Agency FB";
+}
+.boxxing nav .logo span {
+  display: none;
+}
+.boxxing header {
+  background: url(/image/mnun.png);
+  background-size: cover;
+}
+.boxxing header span {
+  display: none;
+}
+.boxxing .header {
+  background-image: url(./image/fitnes.png);
+}
+.boxxing .class {
+  background-image: url("./image/young.png");
+}
+
+.section {
+  background: url(/image/group-of-happy-people-sitting-on-floor-after-workout\ 1.png);
+}
+.section .linear {
+  background: linear-gradient(89.88deg, #000000 0.12%, rgba(0, 0, 0, 0.621619) 38.34%, rgba(0, 0, 0, 0) 134.42%);
+  width: 100%;
+  font-family: "Agency FB";
+  min-height: 90vh;
+}
+
+.boxxing button,
+.linear button {
+  border-radius: 5px;
+}
+.boxxing button:hover,
+.linear button:hover {
+  background: #ebd82b;
+}
+
+.bars,
+.times {
+  display: none;
+}
+
+.box-i {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+}
+
+.box-i:nth-child(1) {
+  background: url(/image/image\ 6.png);
+}
+
+.box-i:nth-child(2) {
+  background: url(/image/image\ 5.png);
+}
+
+.box-i:nth-child(3) {
+  background: url(/image/image\ 4.png);
+}
+
+.box-i:nth-child(4) {
+  background: url(/image/image\ 6.png);
+}
+
+.box-i:nth-child(5) {
+  background: url(/image/image\ 5.png);
+}
+
+.box-i:nth-child(6) {
+  background: url(/image/image\ 4.png);
+}
+
+.mx {
+  background: linear-gradient(0.67deg, #09A2F9 0.6%, rgba(9, 162, 249, 0) 98.75%);
+}
+
+footer i {
+  cursor: pointer;
+}
+
+.contact {
+  background: url(/image/str.png);
+}
+
+td, th {
+  border: 1px solid #E2E2E2;
+}
+
+td {
+  color: #09A2F9;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .loading {
+    width: 100%;
+    min-height: 100vh;
+    background-size: contain;
+  }
+  .boxxing {
+    min-height: 65vh !important;
+    width: 100%;
+  }
+  .boxxing nav {
+    position: relative;
+    min-height: 15vh;
+  }
+  .boxxing nav .logo {
+    width: 50%;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    min-height: 15vh;
+    padding-left: 25px;
+  }
+  .boxxing nav .logo span {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+  }
+  .boxxing nav .logo img {
+    display: none;
+  }
+  .boxxing nav .menu.active {
+    left: 0;
+  }
+  .boxxing nav .menu {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100% !important;
+    position: absolute;
+    left: -1000px;
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    min-height: 100vh;
+    background: #09A2F9;
+  }
+  .boxxing nav .menu .times {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    left: 90%;
+    top: 20%;
+    color: white;
+    font-size: 23px;
+    cursor: pointer;
+  }
+  .boxxing nav .menu a {
+    width: 90%;
+    background: #FFE400;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-radius: 20px;
+  }
+  .boxxing nav .menu a::before {
+    background: none;
+  }
+  .boxxing nav .btnGroup {
+    width: 50%;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+    min-height: 15vh;
+    padding-right: 25px;
+  }
+  .boxxing nav .btnGroup .bars {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .boxxing nav .btnGroup i {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: x-large;
+    color: white;
+    cursor: pointer;
+  }
+  .boxxing nav .btnGroup button {
+    display: none;
+  }
+  .boxxing header {
+    padding: 0 10px;
+    background: url(/image/1.png) no-repeat center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    min-height: 45vh;
+    width: 100%;
+    background-size: cover;
+  }
+  .boxxing header .h1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .boxxing header h1 {
+    width: 100%;
+    font-size: 30px;
+    display: none;
+  }
+  .boxxing header span {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-weight: bold;
+    color: white;
+    font-size: 35px;
+  }
+  .boxxing header button {
+    display: none;
+  }
+  .boxxing .footer {
+    gap: 20px;
+    min-height: 7vh;
+  }
+  .boxxing .footer h1 {
+    font-size: 13px;
+    width: 200px;
+  }
+  .boxxing .footer button {
+    font-size: 11px;
+    width: 85px;
+    min-height: 25px;
+  }
+  .section {
+    background: url(/image/32.png) no-repeat;
+    min-height: 20vh !important;
+    width: 100%;
+    background-size: cover;
+  }
+  .section .linear {
+    min-height: 345px;
+    background: linear-gradient(89.88deg, #000000 0.12%, rgba(0, 0, 0, 0.621619) 38.34%, rgba(0, 0, 0, 0) 134.42%);
+    padding: 0;
+    padding: 10px;
+  }
+  .section .linear h1 {
+    font-size: 38px;
+    width: 100%;
+  }
+  .section .linear span {
+    font-size: 30px;
+    margin: 0 0 0 50px;
+  }
+  .section .linear button {
+    margin: 0 0 0 80px;
+  }
+  .precios {
+    padding: 10px;
+  }
+  .precios h1 {
+    font-size: 35px;
+  }
+  .precios .body {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 40px;
+  }
+  .precios .body .item p {
+    width: 90%;
+  }
+  .table_box {
+    padding: 30px 10px 10px 10px;
+    min-height: 40vh;
+  }
+  .table_box table {
+    width: 100%;
+    min-height: 40vh;
+  }
+  .table_box table td, .table_box table th {
+    font-size: 10px;
+  }
+  form .boxl {
+    width: 100%;
+    padding: 0;
+  }
+  form .boxl input {
+    width: 100%;
+  }
+  .img_box {
+    padding: 10px;
+  }
+  .img_box h1 {
+    font-size: 30px;
+  }
+  .img_box .xas {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 30px;
+  }
+  .img_box .xas .box-i {
+    width: 380px;
+  }
+  footer .smc {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 30px;
+  }
+  footer .smc .footer-item {
+    min-height: 50vh;
+    width: 380px;
+  }
+  footer .smc .footer-item:nth-child(2) {
+    margin: 0;
+    min-height: 50vh;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  footer .smc .footer-item:nth-child(2) ul {
+    text-align: center;
+  }
+  footer .smc .footer-item:nth-child(3) input[type=email] {
+    width: 280px;
+  }
+  footer .right {
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0;
+    padding: 20px 0;
+    gap: 30px;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer .right ul:nth-child(1) {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    font-size: 18px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
