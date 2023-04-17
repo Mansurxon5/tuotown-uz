@@ -8,6 +8,14 @@
     min-height: 100vh;
     background: url(/image/Loading_2.gif) no-repeat center, #040204;
 }
+ #header {
+     background-image: url(/image/mnun.png);
+     background-size: cover;
+
+     span {
+         display: none;
+     }
+ }
 
 .css {
     display: none;
@@ -33,17 +41,7 @@ body {
     }
 
 
-    header {
-        background: url(/image/mnun.png);
-        background-size: cover;
-        // margin-top: 1%;
-        // margin-bottom: -50px;
-        // margin-top: 50px;
-
-        span {
-            display: none;
-        }
-    }
+   
 
     .header {
         background-image: url(./image/fitnes.png);
@@ -51,7 +49,7 @@ body {
     }
 
     .class {
-        background-image: url("./image/young.png");
+        background-image: url(./image/young.png);
         //   background: transparent;
     }
 }

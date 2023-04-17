@@ -13,10 +13,10 @@ times.addEventListener('click', () => {
     menu.classList.remove('active')
 })
 
-window.oncontextmenu = () => {
-    alert("Siz bu saytni ma'lumotlarini ko'ra olmaysiz!")
-    return false
-}
+// window.oncontextmenu = () => {
+//     alert("Siz bu saytni ma'lumotlarini ko'ra olmaysiz!")
+//     return false
+// }
 
 body.oncopy = () => {
     alert("Siz bu saytni matnlarini ko'chira olmaysiz!");
